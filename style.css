@@ -21,7 +21,7 @@ body {
   margin-top: -260px;
   }
   #img2{
-   visibility: hidden;
+   display: none;
   }
   #img3{
   display: none;
@@ -124,7 +124,7 @@ i:hover {
     }
     
   .text-body{
-    margin: 70px 100px 100px 60%;
+    margin: 70px 70px 100px 60%;
     }
     
   #header{
@@ -136,7 +136,7 @@ i:hover {
     }
     
   #img2{
-    visibility: visible;
+    display: block;
     }
     
   #img3{
