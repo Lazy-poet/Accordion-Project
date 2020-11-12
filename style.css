@@ -98,21 +98,21 @@ i:hover {
 @media only screen and (min-width: 768px){/* For Desktops and Wide Screens*/
    #accordion{
       position: relative;
+      padding: 100px 200px;
     }
     
     #container{
-      margin: 100px 200px;
+      margin: auto;
       min-width: 80%;
       min-height: 80%;
       padding: 30px;
       position: relative;
-      z-index: -1;
        }  
    .logo #img2{
       width: 50%;
       height:60%;
       position: absolute;
-      z-index: 0;
+      padding: 100px 200px;
       margin-left: -80px;
       margin-top: 5%
     }
