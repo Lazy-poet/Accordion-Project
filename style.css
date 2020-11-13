@@ -123,7 +123,7 @@ i:hover {
      margin: auto;
      background-image: url("bg-pattern-desktop.svg");
      background-repeat: no-repeat;
-     background-position: -500% 50%;
+     background-position: -450% 50%;
      background-size: 91% 130%;
      min-width: 80%;
      min-height: 80%;
@@ -169,7 +169,7 @@ i:hover {
      min-height: 25%;
      position: absolute;
      margin-top: 205px;
-     margin-left: -99px;
+     margin-left: -95px;
      z-index: 1;
     }
   a:hover span{
