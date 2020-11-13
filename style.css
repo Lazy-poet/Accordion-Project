@@ -137,8 +137,8 @@ i:hover {
      width: 60%;
      height: 70%;
      position: absolute;
-     margin-left: -100px;
-     margin-top: 5%
+     margin-left: -110px;
+     margin-top: 15%
    }
 
    body{
@@ -168,8 +168,8 @@ i:hover {
      max-width: 250px;
      min-height: 25%;
      position: absolute;
-     margin-top: 175px;
-     margin-left: -109px;
+     margin-top: 195px;
+     margin-left: -99px;
      z-index: 1;
     }
   a:hover span{
