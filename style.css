@@ -69,7 +69,7 @@ a span {
     color: hsl(237, 12%, 33%);
   }
   
-a:hover span {
+a:active span {
     color: hsl(238, 29%, 16%);
     font-weight: 900;
     font-size: 13px;
@@ -168,4 +168,15 @@ i:hover {
      margin-left: -109px;
      z-index: 1;
     }
+  a:hover span{
+     color: hsl(14, 88%, 65%);
+     cursor: pointer;
+    }
+    
+  a:focus:active span{
+    color: hsl(238, 29%, 16%);
+    font-weight: 900;
+    font-size: 13px;
+    text-shadow: 1px 0 hsl(238, 29%, 16%)
+  }
   }
