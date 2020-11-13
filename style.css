@@ -112,8 +112,8 @@ i:hover {
   display: block;
   }
 
-
-@media only screen and (min-width: 375px){
+/*For larger screens*/
+@media only screen and (min-width: 678px){
 
   #container{
      margin: auto;
