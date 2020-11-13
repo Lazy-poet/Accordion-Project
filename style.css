@@ -41,6 +41,7 @@ body {
     padding-top: 150px;
     padding-bottom: 50px;
     margin-top: 50px;
+    font-family: "Kumbh Sans", sans-serif;
   }
   
 #header {
@@ -114,6 +115,9 @@ i:hover {
 
 /*For larger screens*/
 @media only screen and (min-width: 678px){
+   #accordion{
+     margin: auto;
+   }
 
   #container{
      margin: auto;
