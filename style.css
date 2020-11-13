@@ -117,6 +117,10 @@ i:hover {
 
   #container{
      margin: auto;
+     background-image: url(https://drive.google.com/thumbnail?id=1vs6s9GtZjRz-ItX3ZscWxuJRfddV-nSY);
+     background-repeat: no-repeat;
+     background-position: -450% 50%;
+     background-size: 91% 130%;
      min-width: 80%;
      min-height: 80%;
      padding: 20px;
@@ -126,10 +130,10 @@ i:hover {
    } 
  
   .logo #img2{
-     width: 50%;
-     height: 60%;
+     width: 60%;
+     height: 70%;
      position: absolute;
-     margin-left: -80px;
+     margin-left: -100px;
      margin-top: 5%
    }
 
@@ -140,7 +144,7 @@ i:hover {
    }
 
   .text-body{
-     margin: 70px 70px 100px 60%;
+     margin: 70px 70px 70px 60%;
     }
 
   #header{
@@ -160,7 +164,7 @@ i:hover {
      max-width: 250px;
      min-height: 25%;
      position: absolute;
-     margin-top: 150px;
+     margin-top: 175px;
      margin-left: -109px;
      z-index: 1;
     }
