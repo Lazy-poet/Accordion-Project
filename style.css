@@ -7,24 +7,30 @@ body {
     padding: 20px;
     font-family: "Kumbh Sans", sans-serif;
   }
-    #accordion{
-  position: relative;
-  margin-top: 50px !important;}
-  .logo #img1{
+
+#accordion{
+    position: relative;
+    margin-top: 50px 
+  } 
+
+.logo #img1{
     position: absolute;
-  height: 200px;
-  width: 300px; 
+    height: 200px;
+    width: 300px; 
     margin-left: calc(50% - 220px);
-  margin-top: -260px;
+    margin-top: -260px;
   }
-  #img2{
-   visibility: hidden;
+
+#img2{
+    display:none;
   }
-  #img3{
-  display: none;
+
+#img3{
+    display: none;
   }
-  #container {
-   min-height: 70%;
+
+#container {
+    min-height: 70%;
     background-color: #fff;
     padding: 30px;
     border-radius: 25px;
@@ -33,108 +39,126 @@ body {
     margin-top: 50px;
   }
   
-  #header {
+#header {
     text-align: center;
     display: block;
-    /*color: hsl(237, 12%, 33%);*/
     color: hsl(238, 29%, 16%);
     font-weight: 900;
     font-size: 1.8rem;
-    text-shadow: 2px 0 hsl(238, 29%, 16%) /*hsl(237, 12%, 33%)*/;
+    text-shadow: 2px 0 hsl(238, 29%, 16%);
     margin-bottom: 20px;
   }
-  .faq-section {
+
+.faq-section {
     border-bottom: 1px hsl(240, 5%, 91%) solid;
     padding: 20px 0;
     font-size: 12px;
     color: hsl(240, 6%, 50%);
     box-sizing: border-box;
   }
-  a {
-    text-decoration: none;
-    span {
-      color: hsl(237, 12%, 33%);
-    }
+
+a {
+    text-decoration: none
+  }
+
+a span {
+    color: hsl(237, 12%, 33%);
   }
   
-  a:hover span {
+a:hover span {
     color: hsl(238, 29%, 16%);
     font-weight: 900;
     font-size: 13px;
     text-shadow: 1px 0 hsl(238, 29%, 16%);
   }
   
-  i {
-    color: hsl(14, 88%, 65%);
-    &:hover {
-      text-shadow: 1px 0 hsl(14, 88%, 65%);
-    }
+i {
+    color: hsl(14, 88%, 65%)
   }
-  .answer-link {
+
+i:hover {
+    text-shadow: 1px 0 hsl(14, 88%, 65%);
+  }
+
+.answer-link {
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
-  .fa-angle-up {
+
+.answer-link .fa-angle-up {
     display: none;
   }
-  .answer {
+
+.answer {
     max-height:0;
     overflow: hidden;
+    transition: max-height 600ms;
   }
-  .faq-section:target .answer {
+
+.faq-section:target .answer {
     max-height:200px;
     padding-top: 5px;
   }
-  .faq-section:target .answer-link .fa-angle-down{
-  display: none;}
-  .faq-section:target .answer-link .fa-angle-up{
+.faq-section:target .answer-link .fa-angle-down{
+  display: none;
+}
+
+.faq-section:target .answer-link .fa-angle-up{
   display: block;
   }
-  @media only screen and (min-width: 768px){
-    #accordion{
-        position: relative;
-    }
-    
-       #container{
-         margin: 100px 200px;
-           min-width: 80%;
-         min-height: 80%;
-         padding: 30px;
-       position: relative;
-         z-index: -1;
-       }  
+
+
+@media only screen and (min-width: 768px){
+  #accordion{
+     position: relative;
+     padding: 100px 200px;
+   }
+
+  #container{
+     margin: auto;
+     min-width: 80%;
+     min-height: 80%;
+     padding: 20px;
+     position: relative;
+   } 
+ 
   .logo #img2{
      width: 50%;
-      height:60%;
+     height: 60%;
      position: absolute;
-     z-index: 0;
      margin-left: -80px;
-      margin-top: 5%
-    }
-    body{
+     margin-top: 5%
+   }
+
+   body{
      display: flex;
-    align-items: center;
-    justify-content: center;
-      z-index: 1;
+     align-items: center;
+     justify-content: center;
+   }
+
+  .text-body{
+     margin: 70px 70px 100px 60%;
     }
-    .text-body{
-      margin: 70px 100px 100px 60%;
+
+  #header{
+     text-align: justify;
     }
-    #header{
-      text-align: justify;
+
+  #img1{
+     display: none;
     }
-    #img1{
-      display: none;
+
+  #img2{
+     display: block;
     }
-    #img2{
-     visibility: visible;
+
+  #img3{
+     display: block;
+     max-width: 250px;
+     height:40%;
+     position: absolute;
+     margin-top: 13%;
+     margin-left: -140px;
     }
-    #img3{
-    display: block;
-      max-width: 250px;
-      height:40%;
-      position: absolute;
-      margin-top: 13%;
-        margin-left: -140px;
-    }
-    }
+  }
