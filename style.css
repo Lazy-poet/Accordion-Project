@@ -121,6 +121,8 @@ i:hover {
      min-height: 80%;
      padding: 20px;
      position: relative;
+     overflow: hidden;
+     box-shadow: 7px 20px 15px hsl(251, 48%, 49%), -7px 0px 15px hsl(251, 48%, 49%)
    } 
  
   .logo #img2{
@@ -156,9 +158,10 @@ i:hover {
   #img3{
      display: block;
      max-width: 250px;
-     height:40%;
+     min-height: 25%;
      position: absolute;
-     margin-top: 13%;
-     margin-left: -140px;
+     margin-top: 150px;
+     margin-left: -109px;
+     z-index: 1;
     }
   }
