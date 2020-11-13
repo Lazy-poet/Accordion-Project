@@ -34,7 +34,7 @@ body {
     background-image: url("bg-pattern-mobile.svg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 260px 100px;
+    background-size: auto;
     background-color: #fff;
     padding: 30px;
     border-radius: 25px;
@@ -169,7 +169,7 @@ i:hover {
      min-height: 25%;
      position: absolute;
      margin-top: 205px;
-     margin-left: -95px;
+     margin-left: -94px;
      z-index: 1;
     }
   a:hover span{
