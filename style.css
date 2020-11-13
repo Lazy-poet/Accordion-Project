@@ -30,7 +30,7 @@ body {
   }
 
 #container {
-    min-height: 70%;
+    min-height: 70vh;
     background-image: url(https://drive.google.com/thumbnail?id=1DdN8g6ugEdgtvqzzPr6Qk_lg0cww47B5);
     background-repeat: no-repeat;
     background-position: center top;
