@@ -114,7 +114,7 @@ i:hover {
   }
 
 /*For larger screens*/
-@media only screen and (min-width: 678px){
+@media only screen and (min-width: 800px){
    #accordion{
      margin: auto;
    }
