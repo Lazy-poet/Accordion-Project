@@ -30,7 +30,7 @@ body {
   }
 
 #container {
-    min-height: 70%;
+    min-height: 70vh;
     background-image: url("bg-pattern-mobile.svg");
     background-repeat: no-repeat;
     background-position: center top;
@@ -125,8 +125,8 @@ i:hover {
      background-repeat: no-repeat;
      background-position: -450% 50%;
      background-size: 91% 130%;
-     min-width: 80%;
-     min-height: 80%;
+     min-width: 80vh;
+     min-height: 80vh;
      padding: 20px;
      position: relative;
      overflow: hidden;
