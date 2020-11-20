@@ -4,21 +4,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 2rem;
     font-family: "Kumbh Sans", sans-serif;
   }
 
 #accordion{
     position: relative;
-    margin-top: 50px 
-  } 
-
-.logo #img1{
-    position: absolute;
-    height: 200px;
-    width: 300px; 
-    margin-left: calc(50% - 195px);
-    margin-top: -260px;
+    margin-top: 10vh;
+    max-height: 80vh;
+}
+.logo > #img1{
+  position: absolute;
+  display: block;
+  height: 230px;
+  width: 75%;
+  margin-left: 0px;
+  margin-top: -280px;
+  
   }
 
 #img2{
@@ -30,11 +32,11 @@ body {
   }
 
 #container {
-    min-height: 70vh;
+    max-height: 65vh;
     background-image: url("bg-pattern-mobile.svg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: auto;
+    background-size: 68% 120px;
     background-color: #fff;
     padding: 30px;
     border-radius: 25px;
@@ -57,7 +59,7 @@ body {
 .faq-section {
     border-bottom: 1px hsl(240, 5%, 91%) solid;
     padding: 20px 0;
-    font-size: 12px;
+    font-size: .8rem;
     color: hsl(240, 6%, 50%);
     box-sizing: border-box;
   }
@@ -73,7 +75,7 @@ a span {
 a:hover span {
     color: hsl(238, 29%, 16%);
     font-weight: 900;
-    font-size: 13px;
+    font-size: 0.8rem;
     text-shadow: 1px 0 hsl(238, 29%, 16%);
   }
   
@@ -103,6 +105,7 @@ i:hover {
 
 .faq-section:target .answer {
     max-height:200px;
+    max-width: 80%;
     padding-top: 5px;
   }
 .faq-section:target .answer-link .fa-angle-down{
@@ -125,8 +128,8 @@ i:hover {
      background-repeat: no-repeat;
      background-position: -450% 50%;
      background-size: 91% 130%;
-     min-width: 80vh;
-     min-height: 80vh;
+     max-width: 80vw;
+     max-height: 80vh;
      padding: 20px;
      position: relative;
      overflow: hidden;
@@ -179,10 +182,13 @@ i:hover {
      text-shadow: none;
     }
     
-  a:focus:active span{
+  a:focus span{
     color: hsl(238, 29%, 16%);
     font-weight: 900;
     font-size: 13px;
     text-shadow: 1px 0 hsl(238, 29%, 16%)
+  }
+  a:active{
+    color: hsl(238, 29%, 16%)
   }
   }
